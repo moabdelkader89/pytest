@@ -1,0 +1,11 @@
+from bank_class import bank_account
+emp1=bank_account("ahmed",50,30,"it")
+emp2=bank_account("mohamed",500,30,"hr")
+print(emp2.dep)
+print(emp1.salary)
+print(emp1.salary_rise())
+emp2.salary_rise()
+emp1.cut_salary()
+emp2.cut_salary()
+emp2.dep_rise()
+emp1.dep_rise()
